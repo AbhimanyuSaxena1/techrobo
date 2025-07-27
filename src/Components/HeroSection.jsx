@@ -110,7 +110,7 @@ const HeroSection = () => {
             Image {((currentImageIndex + 1) % backgroundImages.length) + 1} of {backgroundImages.length}
           </div>
         </div>
-                 <div className="container absolute top-[50%] md:top-[50%] -translate-y-[100%] md:translate-y-[-50%] md:w-[30rem] md:h-[25rem] w-[20rem] h-[20rem] z-10">
+                 <div className="container absolute top-[50%] md:top-[50%] -translate-y-[100%] left-1/2 -translate-x-1/2 md:translate-y-[-50%] md:w-[30rem] md:h-[25rem] w-[20rem] h-[20rem] z-10">
            <div className="bar w-full h-full overflow-hidden flex flex-col whitespace-nowrap bg-black/10 md:bg-white/10 backdrop-blur-xl border border-white/20 shadow-2xl rounded-2xl p-6 transition-all duration-500 ease-in-out hover:bg-white/15 hover:shadow-3xl hover:border-white/30">
             <div 
               ref={barRef}
