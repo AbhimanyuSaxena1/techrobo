@@ -30,7 +30,7 @@ const HorizontalSlider = () => {
         };
     }, []);
   return (
-    <div className="max-w-screen-2xl flex flex-col md:gap-10 gap-20 mx-auto md:h-[110vh] h-[100vh]  ">
+    <div className="max-w-screen-2xl flex flex-col md:gap-10 gap-20 mx-auto md:h-[110vh] h-[200vh]  ">
       <div className="upper  flex md:flex-row flex-col items-center gap-10 md:gap-0   w-full px-10 h-[100vh] md:h-1/3 ">
         <div className="left md:w-[55%] w-full h-full flex flex-col  items-start justify-center">
           <div className="caseStudy  flex flex-row items-center justify-start w-auto">
