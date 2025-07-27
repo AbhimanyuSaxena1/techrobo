@@ -122,7 +122,7 @@ const OurServices = () => {
 
   return (
     <div className="min-h-screen  ">
-      <div className="flex min-h-screen md:flex-row  gap-[30vh] md:gap-10 flex-col  p-10">  
+      <div className="flex min-h-screen md:flex-row  gap-[60vh] md:gap-10 flex-col  p-10">  
         <div
           className="left-side py-22 md:sticky md:top-0 md:w-[40%] w-full h-screen"
           style={{ flexShrink: 0 }}
