@@ -162,20 +162,20 @@ const OurReviews = () => {
     }, []);
 
     return (
-        <div className='w-full h-[100vh] px-10 mt-20 bg-white'>
+        <div className='w-full md:h-auto flex flex-col items-center justify-center gap-10 h-auto px-10 md:mt-20 mt-10 bg-white'>
             <div className='top w-full h-fit'>
-                <div className="ClientSay px-5 pt-5 flex flex-row items-center justify-start w-auto">
+                <div className="ClientSay  px-5 pt-5 flex flex-row items-center justify-start w-auto">
                     <h1 className="text-xl uppercase font-semibold text-red-600 whitespace-nowrap">
                         What our clients say
                     </h1>
                     <div className="line w-[10rem] h-[1px] bg-black ml-2"></div>
                 </div>
-                <div className="heading flex flex-row mt-4 w-full h-[40vh]">
-                    <div className="left w-1/2 px-5 h-full">
+                <div className="heading flex flex-col md:flex-row mt-4 gap-15 md:gap-0 w-full md:h-[40vh] h-auto">
+                    <div className="left md:w-1/2 w-full px-5 h-full">
                         <h1 className='text-6xl font-normal text-black'>Our <span className='font-medium'>Reviews</span></h1>
-                        <p className='text-md font-normal leading-6 text-black w-[80%] mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium eius iste, debitis sint facilis repellendus eaque perspiciatis laudantium? Ipsa, quisquam! Repudiandae perspiciatis dolores quaerat at eligendi. Reiciendis, doloremque. Odio!</p>
+                        <p className='text-md font-normal leading-6 text-black md:w-[80%] w-full mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam accusantium eius iste, debitis sint facilis repellendus eaque perspiciatis laudantium? Ipsa, quisquam! Repudiandae perspiciatis dolores quaerat at eligendi. Reiciendis, doloremque. Odio!</p>
                     </div>
-                    <div className="right w-1/2 h-full flex flex-row items-start justify-end">
+                    <div className="right md:w-1/2 w-full h-full flex flex-row md:items-start justify-center md:justify-end">
                         <div className="btn relative overflow-hidden w-auto gap-2 hover:bg-red-600 transition-all duration-300 rounded-full border-2 border-red-600 h-[4rem] flex flex-row items-center justify-between px-4 cursor-pointer group">
                             <h1 className="text-lg z-10 font-semibold text-red-600 whitespace-nowrap group-hover:text-white transition-all duration-300">
                                 Leave a Comment
