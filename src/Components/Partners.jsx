@@ -59,7 +59,7 @@ const Partners = () => {
         <div className='max-w-screen-2xl mx-auto  h-[100vh]'>
             <div className='flex flex-col overflow-hidden items-center justify-center h-full w-full'>
                 <div className="container md:w-1/2 w-full overflow-hidden">
-                    <div className='first-line min-w-[50%] whitespace-nowrap px-10 gap-2 h-[10vh] flex flex-row items-center '>
+                    <div className='first-line min-w-[50%] md:whitespace-nowrap whitespace-wrap px-10 gap-2 h-[10vh] flex flex-row items-center '>
                         <h1 className='md:text-4xl text-2xl text-black font-semibold'>YOUR <span className='text-blue-500'>PARTNERS</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
@@ -71,7 +71,7 @@ const Partners = () => {
                         </div>
                         <h1 className='md:text-4xl text-2xl text-black font-semibold'>IN CREATION </h1>
                     </div>
-                    <div className='second-line min-w-[50%] whitespace-nowrap px-5 gap-2 h-[10vh] flex flex-row items-center '>
+                    <div className='second-line min-w-[50%] md:whitespace-nowrap whitespace-wrap px-5 gap-2 h-[10vh] flex flex-row items-center '>
                         <h1 className='md:text-4xl text-2xl text-black font-semibold'>FROM <span className='text-blue-500'>WEBSITE</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
@@ -83,7 +83,7 @@ const Partners = () => {
                         </div>
                         <h1 className='md:text-4xl text-2xl text-black font-semibold'>FOR A <span className='text-blue-500'>PRESENCE</span></h1>
                     </div>
-                    <div className='third-line min-w-[50%] whitespace-nowrap px-15 gap-2 h-[10vh] flex flex-row items-center '>
+                    <div className='third-line min-w-[50%] md:whitespace-nowrap whitespace-wrap px-15 gap-2 h-[10vh] flex flex-row items-center '>
                         <h1 className='md:text-4xl text-2xl text-black font-semibold'>FOXGLOVE <span className='text-blue-500'>IMPACTFUL</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
