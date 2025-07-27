@@ -11,13 +11,16 @@ import WhyUs from './Components/WhyUs.jsx'
 import Footer from './Components/Footer.jsx'
 const App = () => {
   return (
-    <div className='min-h-screen relative'>
+    <div className='min-h-screen relative '>
+      <div className="top overflow-hidden">
       <NavbarDemo className='w-full' />
       <HeroSection />
-      <HorizontalSlider />
+      <HorizontalSlider  />
       <div className='h-[100vh] w-[80vw] mx-auto'>
       </div>
       <Partners />
+      
+      </div>
       <OurServices />
       <OurReviews />
       <WhoWeAre />

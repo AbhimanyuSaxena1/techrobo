@@ -100,7 +100,7 @@ const HorizontalSlider = () => {
               />
             </div>
           </div>
-          <div className="imgContainer md:w-[30rem] w-[20rem] md:h-[32rem] h-[40rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
+          <div className="imgContainer w-[20rem] md:w-[30rem] md:h-[32rem] h-[40rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
             <div className="img w-full h-full bg-blue-200">
               <img
                 src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
