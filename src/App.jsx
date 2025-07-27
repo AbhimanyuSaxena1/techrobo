@@ -26,7 +26,9 @@ const App = () => {
       <WhoWeAre />
       <Marquee />
       <WhyUs />
+      <div className='flex flex-col gap-10 overflow-hidden'>
       <Footer />
+      </div>
     </div>
   )
 }

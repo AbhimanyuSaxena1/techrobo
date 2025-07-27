@@ -58,15 +58,15 @@ const Footer = () => {
                     </ul>
                 </div>
      </div>
-     <div className="absolute -top-22 rounded-full left-0  w-[80%] !mx-40 h-[24vh] flex flex-row px-12 items-center justify-start bg-white" style={{boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
-     <div className="left w-[70%] h-full flex flex-col items-start justify-center">
+     <div className="absolute -top-22 rounded-full left-0  md:w-[80%] w-full !mx-40 md:h-[24vh] h-[10vh] flex flex-row px-12 items-center justify-start bg-white" style={{boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}>
+     <div className="left md:w-[70%] w-full h-full flex flex-col items-start justify-center">
      <div className="letsTalk   flex flex-row items-center justify-start w-auto">
             <h1 className="text-xl font-semibold text-red-600 whitespace-nowrap">
 LET'S TALK            </h1>
             <div className="line w-[15rem] h-[1px] bg-black ml-2"></div>
           </div>
-          <h1 className='text-2xl text-black font-medium'>HAVE A QUESTION ?</h1>
-          <p className='text-md text-black font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi quaerat reiciendis in cumque pariatur odio sapiente cupiditate soluta a.</p>
+          <h1 className='md:text-2xl text-xl text-black font-medium'>HAVE A QUESTION ?</h1>
+          <p className='md:text-md text-sm text-black font-normal'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi quaerat reiciendis in cumque pariatur odio sapiente cupiditate soluta a.</p>
         
      </div>
      <div className="right w-[30%] h-full flex flex-col items-center justify-center">
