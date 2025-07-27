@@ -30,9 +30,9 @@ const HorizontalSlider = () => {
         };
     }, []);
   return (
-    <div className="max-w-screen-2xl  mx-auto h-[110vh] ">
-      <div className="upper flex flex-row items-center  w-full px-10 h-1/3 ">
-        <div className="left w-[55%] h-full flex flex-col  items-start justify-center">
+    <div className="max-w-screen-2xl flex flex-col md:gap-10 gap-20 mx-auto md:h-[110vh] h-[100vh]  ">
+      <div className="upper  flex md:flex-row flex-col items-center gap-10 md:gap-0   w-full px-10 h-[100vh] md:h-1/3 ">
+        <div className="left md:w-[55%] w-full h-full flex flex-col  items-start justify-center">
           <div className="caseStudy  flex flex-row items-center justify-start w-auto">
             <h1 className="text-xl font-semibold text-red-600 whitespace-nowrap">
               CASE STUDY
@@ -51,7 +51,7 @@ const HorizontalSlider = () => {
             quia mollitia rem saepe ipsa iste.
           </p>
         </div>
-        <div className="right w-[45%] h-full flex flex-col  items-end justify-center">
+        <div className="right w-full md:w-[45%] h-full flex flex-col  items-start justify-start md:items-end  md:justify-center">
           <div className="btn w-[11rem] hover:bg-red-600 transition-all duration-300 rounded-full border-2 border-red-600 h-[4rem] flex flex-row items-center justify-between px-4 cursor-pointer group">
             <h1 className="text-lg font-semibold text-red-600 group-hover:text-white transition-all duration-300">
               View All
@@ -62,9 +62,9 @@ const HorizontalSlider = () => {
           </div>
         </div>
       </div>
-      <div ref={containerRef} className="bottom w-full -mr-30 h-[75%] overflow-hidden p-10 ">
-        <div ref={sliderRef} className="flex flex-row gap-10 items-center" style={{ width: 'max-content' }}>
-          <div className="imgContainer w-[30rem] h-[32rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
+      <div ref={containerRef} className="bottom  w-full   md:-mr-30 h-[100vh] md:h-[75%] overflow-hidden p-10 ">
+        <div ref={sliderRef} className="flex  flex-row gap-10 items-center" style={{ width: 'max-content' }}>
+          <div className="imgContainer md:w-[30rem] w-[20rem] md:h-[32rem] h-[40rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
             <div className="img w-full h-full bg-blue-200">
               <img
                 src="https://images.unsplash.com/photo-1682687220198-88e9bdea9931?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
