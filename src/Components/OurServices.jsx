@@ -122,7 +122,7 @@ const OurServices = () => {
 
   return (
     <div className="min-h-screen  ">
-      <div className="flex min-h-screen md:flex-row  gap-40 md:gap-10 flex-col  p-10">  
+      <div className="flex min-h-screen md:flex-row  gap-70 md:gap-10 flex-col  p-10">  
         <div
           className="left-side py-22 md:sticky md:top-0 md:w-[40%] w-full h-screen"
           style={{ flexShrink: 0 }}
@@ -169,7 +169,7 @@ const OurServices = () => {
           </div>
         </div>
         <div
-          className="right-side min-h-screen mt-10 md:mt-0  md:w-[60%] w-full flex flex-col gap-5 flex-1"
+          className="right-side min-h-screen md:mt-0  md:w-[60%] w-full flex flex-col gap-5 flex-1"
           style={{ flexShrink: 0 }}
         >
           {services.map((service) => (
