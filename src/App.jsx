@@ -11,7 +11,7 @@ import WhyUs from './Components/WhyUs.jsx'
 import Footer from './Components/Footer.jsx'
 const App = () => {
   return (
-    <div className='min-h-screen relative '>
+    <div className='min-h-screen relative -mb-10 '>
       <div className="top overflow-hidden">
       <NavbarDemo className='w-full' />
       <HeroSection />
