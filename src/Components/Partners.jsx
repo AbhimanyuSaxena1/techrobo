@@ -58,9 +58,9 @@ const Partners = () => {
     return (
         <div className='max-w-screen-2xl mx-auto  h-[100vh]'>
             <div className='flex flex-col overflow-hidden items-center justify-center h-full w-full'>
-                <div className="container w-1/2 overflow-hidden">
+                <div className="container md:w-1/2 w-full overflow-hidden">
                     <div className='first-line min-w-[50%] whitespace-nowrap px-10 gap-2 h-[10vh] flex flex-row items-center '>
-                        <h1 className='text-4xl text-black font-semibold'>YOUR <span className='text-blue-500'>PARTNERS</span></h1>
+                        <h1 className='md:text-4xl text-2xl text-black font-semibold'>YOUR <span className='text-blue-500'>PARTNERS</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
                                 <img src={"https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"} alt="" className='absolute top-0 left-0 w-full h-full object-cover' />
@@ -69,10 +69,10 @@ const Partners = () => {
                                 </div>
                             </div>
                         </div>
-                        <h1 className='text-4xl text-black font-semibold'>IN CREATION </h1>
+                        <h1 className='md:text-4xl text-2xl text-black font-semibold'>IN CREATION </h1>
                     </div>
                     <div className='second-line min-w-[50%] whitespace-nowrap px-5 gap-2 h-[10vh] flex flex-row items-center '>
-                        <h1 className='text-4xl text-black font-semibold'>FROM <span className='text-blue-500'>WEBSITE</span></h1>
+                        <h1 className='md:text-4xl text-2xl text-black font-semibold'>FROM <span className='text-blue-500'>WEBSITE</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
                                 <img src={"https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"} alt="" className='absolute top-0 left-0 w-full h-full object-cover' />
@@ -81,10 +81,10 @@ const Partners = () => {
                                 </div>
                             </div>
                         </div>
-                        <h1 className='text-4xl text-black font-semibold'>FOR A <span className='text-blue-500'>PRESENCE</span></h1>
+                        <h1 className='md:text-4xl text-2xl text-black font-semibold'>FOR A <span className='text-blue-500'>PRESENCE</span></h1>
                     </div>
                     <div className='third-line min-w-[50%] whitespace-nowrap px-15 gap-2 h-[10vh] flex flex-row items-center '>
-                        <h1 className='text-4xl text-black font-semibold'>FOXGLOVE <span className='text-blue-500'>IMPACTFUL</span></h1>
+                        <h1 className='md:text-4xl text-2xl text-black font-semibold'>FOXGLOVE <span className='text-blue-500'>IMPACTFUL</span></h1>
                         <div className='image group relative group-hover:bg-red-600 w-[20%] h-[50%] rounded-full overflow-hidden flex items-center justify-center'>
                             <div className="cursor-pointer">
                                 <img src={"https://images.unsplash.com/photo-1683009686716-ac2096a5a73b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D"} alt="" className='absolute top-0 left-0 w-full h-full object-cover' />
