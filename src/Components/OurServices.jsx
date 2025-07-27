@@ -169,7 +169,7 @@ const OurServices = () => {
           </div>
         </div>
         <div
-          className="right-side min-h-screen  md:w-[60%] w-full flex flex-col gap-5 flex-1"
+          className="right-side min-h-screen mt-10 md:mt-0  md:w-[60%] w-full flex flex-col gap-5 flex-1"
           style={{ flexShrink: 0 }}
         >
           {services.map((service) => (
