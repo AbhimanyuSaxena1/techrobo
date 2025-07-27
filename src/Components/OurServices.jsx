@@ -15,11 +15,11 @@ const ServiceCard = ({
 }) => {
   return (
     <Link to={linkTo}>
-      <div className="card w-[100%] p-5 h-[80vh] bg-white shadow-xl rounded-lg" style={{ flexShrink: 0 }}>
+      <div className="card md:w-[100%] overflow-hidden w-full p-5 h-[auto] bg-white shadow-xl rounded-lg" style={{ flexShrink: 0 ,boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px"}}>
         <div className="top-side w-full h-[25%] flex flex-row items-center justify-center">
-          <div className="alphabet relative h-full w-[50%] flex items-center justify-start overflow-hidden">
+          <div className="alphabet relative h-full md:w-[50%] w-[80%] flex items-center justify-start overflow-hidden">
             <div 
-              className="text-[10rem] font-bold leading-none text-transparent bg-clip-text bg-cover"
+              className="md:text-[10rem] text-[8rem] font-bold leading-none text-transparent bg-clip-text bg-cover"
               style={{ backgroundImage: `url(${imageUrl})` }}
             >
               {letter}
@@ -43,7 +43,7 @@ const ServiceCard = ({
           </div>
         </div>
         
-        <div className="tags w-full h-[10%] flex flex-row items-center justify-start px-5 gap-5">
+        <div className="tags w-full md:h-[10%] h-auto mb-10 mt-10 flex flex-row flex-wrap  items-center justify-start px-5 gap-5">
           {tags.map((tag, index) => (
             <div key={index} className="tag w-auto px-2 gap-2 rounded-md py-2 h-[2rem] shadow-md bg-zinc-200 flex flex-row items-center justify-center">
               <h1 className="text-lg font-normal text-zinc-500">+</h1>
@@ -121,10 +121,10 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="min-h-screen">
-      <div className="flex flex-row gap-5 p-10">  
+    <div className="min-h-screen  ">
+      <div className="flex min-h-screen md:flex-row  gap-40 md:gap-10 flex-col  p-10">  
         <div
-          className="left-side py-22 sticky top-0 w-[40%] h-screen"
+          className="left-side py-22 md:sticky md:top-0 md:w-[40%] w-full h-screen"
           style={{ flexShrink: 0 }}
         >
           <div className="caseStudy px-5 pt-5 flex flex-row items-center justify-start w-auto">
@@ -169,7 +169,7 @@ const OurServices = () => {
           </div>
         </div>
         <div
-          className="right-side w-[60%] flex flex-col gap-5 flex-1"
+          className="right-side min-h-screen  md:w-[60%] w-full flex flex-col gap-5 flex-1"
           style={{ flexShrink: 0 }}
         >
           {services.map((service) => (
