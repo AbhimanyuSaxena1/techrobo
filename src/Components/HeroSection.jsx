@@ -83,20 +83,20 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:h-[80vh]  mb-[50vh] mt-20 md:mt-20 md:mb-0 md:flex md:flex-row  md:items-center md:justify-center ">
+    <div className="md:h-[80vh]  mb-[50vh] mt-20 md:mt-40 md:mb-0 md:flex md:flex-row  md:items-center md:justify-center ">
       <div className="left-0 w-full md:w-1/2 h-[100vh] md:h-full md:p-10 p-5 flex items-start justify-start flex-col ">
-        <h1 className="text-4xl md:text-6xl w-full !text-left font-bold !text-black">
-          Heading 1
-        </h1>
-        <p className=" w-full !text-left text-black !text-xl md:!text-2xl mb-4 md:mb-0 ">
+        <h1 className="text-7xl md:text-[7rem] font-semibold w-fit mb-10 md:border-none md:mb-5 border-b-2 border-red-600  !text-left font-bold !text-black">
+Aerotalk        </h1>
+        <p className=" w-[90%]  !text-left text-blue-800 font-medium  text-xl md:text-2xl mb-4 md:mb-0 ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
           quos.
         </p>
-        <ul className="text-black md:text-3xl w-full !text-left ">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
+        <ul className="text-black font-medium px-10 md:text-3xl w-full !text-left ">
+          <li className="list-disc  ">Item 1</li>
+          <li className="list-disc">Item 2</li>
+          <li className="list-disc">Item 3</li>
         </ul>
+       
       </div>
       <div
         className="right-0 relative px-10 w-full md:w-1/2 !mb-30 md:mb-0 h-full"

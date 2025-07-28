@@ -111,7 +111,7 @@ const HorizontalSlider = () => {
           {projects.map((project) => (
             <div 
               key={project.id} 
-              className="imgContainer md:w-[30rem] w-[20rem] md:h-[34rem] h-[40rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group"
+              className="imgContainer md:w-[30rem] w-[20rem] md:h-[34rem] h-[35rem] bg-red-200 shrink-0 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer group"
             >
               <div className="img w-full h-full bg-blue-200 relative">
                 <img
