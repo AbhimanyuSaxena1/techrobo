@@ -121,10 +121,10 @@ const OurServices = () => {
   ];
 
   return (
-    <div className="min-h-screen  ">
-      <div className="flex min-h-screen md:flex-row  gap-[50vh] md:gap-10 flex-col  p-10">  
+    <div className="min-h-screen  w-full z-[999] bg-white relative">
+      <div className="flex min-h-screen md:flex-row  gap-[50vh] md:gap-10 bg-white z-[999] flex-col  p-10">  
         <div
-          className="left-side py-22 md:sticky md:top-0 md:w-[40%] w-full h-screen"
+          className="left-side py-22 md:sticky md:-top-10 z-[999] bg-white md:w-[40%] w-full h-screen"
           style={{ flexShrink: 0 }}
         >
           <div className="caseStudy px-5 pt-5 flex flex-row items-center justify-start w-auto">
@@ -169,7 +169,7 @@ const OurServices = () => {
           </div>
         </div>
         <div
-          className="right-side min-h-screen md:mt-0  md:w-[60%] w-full flex flex-col gap-5 flex-1"
+          className="right-side z-[999] min-h-screen md:mt-0  md:w-[60%] w-full flex flex-col gap-5 flex-1"
           style={{ flexShrink: 0 }}
         >
           {services.map((service) => (

@@ -162,8 +162,8 @@ const OurReviews = () => {
     }, []);
 
     return (
-        <div className='w-full md:h-auto flex flex-col items-center justify-center gap-10 h-auto px-10 md:mt-20 mt-10 bg-white'>
-            <div className='top w-full h-fit'>
+        <div className='w-full  md:h-auto flex flex-col items-center justify-center gap-10 h-auto px-10 md:mt-20 mt-10 bg-white'>
+            <div className='top  w-full h-fit'>
                 <div className="ClientSay  px-5 pt-5 flex flex-row items-center justify-start w-auto">
                     <h1 className="text-xl uppercase font-semibold text-red-600 whitespace-nowrap">
                         What our clients say

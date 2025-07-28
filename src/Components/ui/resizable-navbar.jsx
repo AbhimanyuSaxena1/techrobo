@@ -33,7 +33,7 @@ export const Navbar = ({
   return (
     <motion.div
       ref={ref}
-      // IMPORTANT: Change this to class of `fixed` if you want the navbar to be fixed
+      // IMPORTANT: Change this to class to normal for not fixed navbar
       className={cn("fixed inset-x-0 top-0 z-50 w-full", className)}>
       {React.Children.map(children, (child) =>
         React.isValidElement(child)
@@ -93,15 +93,15 @@ export const NavItems = ({
         <a
           onMouseEnter={() => setHovered(idx)}
           onClick={onItemClick}
-          className="relative text-xl px-4 py-2 !text-white dark:text-neutral-300"
+          className="relative text-xl px-4 py-2 !text-black hover:!text-white dark:text-white"
           key={`link-${idx}`}
           href={item.link}>
           {hovered === idx && (
             <motion.div
               layoutId="hovered"
-              className="absolute inset-0 h-full w-full  bg-gray-100 dark:bg-neutral-800" />
+              className="absolute rounded-full  inset-0 h-full w-full  bg-gray-100 dark:bg-neutral-800" />
           )}
-          <span className="relative z-20">{item.name}</span>
+          <span className="relative  z-20">{item.name}</span>
         </a>
       ))}
     </motion.div>
@@ -182,9 +182,9 @@ export const MobileNavToggle = ({
   onClick
 }) => {
   return isOpen ? (
-    <IconX className="text-black dark:text-white" onClick={onClick} />
+    <IconX className="!text-black dark:text-white cursor-pointer" onClick={onClick} />
   ) : (
-    <IconMenu2 className="text-black dark:text-white" onClick={onClick} />
+    <IconMenu2 className="!text-black dark:text-white cursor-pointer" onClick={onClick} />
   );
 };
 
@@ -198,7 +198,8 @@ export const NavbarLogo = () => {
         alt="logo"
         width={30}
         height={30} />
-      <span className="font-medium text-black dark:text-white">Startup</span> */}
+      <span className="font-medium text-black dark:text-white">Startup</span> */} 
+      {/* logo */}
       <h1 className="text-2xl font-bold">  <span className="text-blue-500">R</span>o<span className="text-blue-500">bo</span>tech</h1>
     </a>
   );

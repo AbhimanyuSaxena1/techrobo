@@ -16,12 +16,12 @@ const App = () => {
       <NavbarDemo className='w-full' />
       <HeroSection />
       <HorizontalSlider  />
-      <div className='h-[100vh] w-[80vw] mx-auto'>
+      <div className='md:h-[50vh] h-[70vh] w-[80vw] mx-auto'>
       </div>
-      <Partners />
+      <Partners  />
       
       </div>
-      <OurServices />
+      <OurServices  />
       <OurReviews />
       <WhoWeAre />
       <Marquee />

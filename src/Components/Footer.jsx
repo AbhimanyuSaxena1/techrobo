@@ -5,7 +5,7 @@ import { TiMessage, TiArrowRight } from 'react-icons/ti'
 
 const Footer = () => {
   return (
-    <div className='max-w-screen-2xl relative flex  flex-col md:flex-row gap-10  items-center justify-between px-20   mt-70 min-h-screen bg-black  '>
+    <div className='max-w-screen-2xl z-[999] relative flex  flex-col md:flex-row gap-10  items-center justify-between px-20   mt-70 min-h-screen bg-black  '>
     <div className="left md:mt-0 mt-80 text-white flex flex-col items-start justify-center md:w-[40%] w-full ">
     <div className="logo w-full flex flex-row items-center justify-start bg-black h-[10vh]">
         {/* <img src={""} alt="logo" />
