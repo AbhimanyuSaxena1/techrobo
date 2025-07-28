@@ -117,7 +117,7 @@ const HeroSection = () => {
             Image {currentImageIndex + 1} of {backgroundImages.length}
           </div>
         </div>
-        <div className="absolute  md:inline-block rounded-xl -bottom-20 z-10 right-20 md:bottom-10 md:right-10 w-[25rem] h-[27rem]">
+        <div className="absolute  md:inline-block rounded-xl -bottom-0 z-10 right-20 md:bottom-10 md:right-10 w-[25rem] h-[27rem]">
           <img
             src={
               backgroundImages[
@@ -144,8 +144,8 @@ const HeroSection = () => {
             {backgroundImages.length}
           </div>
         </div>
-        <div className="container absolute top-[50%] md:top-[50%] -translate-y-[100%] left-1/2 -translate-x-1/2 md:translate-y-[-50%] md:w-auto md:h-[25rem] w-auto h-[25rem] z-10">0
-          <div className="bar w-auto min-w-[15rem] h-full overflow-hidden flex flex-col whitespace-nowrap rounded-2xl p-6 transition-all duration-500 ease-in-out hover:bg-white/15 hover:shadow-3xl hover:border-white/30">
+        <div className="container absolute  top-[60%] md:top-[50%] -translate-y-[60%] left-1/2 -translate-x-1/2 md:translate-y-[-50%] md:w-auto md:h-[25rem] w-auto h-[25rem] z-10">0
+          <div className="bar w-auto min-w-[15rem]  h-full overflow-hidden flex flex-col whitespace-nowrap rounded-2xl p-6 transition-all duration-500 ease-in-out hover:bg-white/15 hover:shadow-3xl hover:border-white/30">
                          <div ref={barRef} className="flex flex-col gap-4">
                {barItems.map((item) => (
                  <div
