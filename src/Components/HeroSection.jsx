@@ -83,7 +83,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="md:h-[80vh] mb-[50vh] mt-20 md:mt-20 md:mb-0 md:flex md:flex-row  md:items-center md:justify-center ">
+    <div className="md:h-[80vh]  mb-[50vh] mt-20 md:mt-20 md:mb-0 md:flex md:flex-row  md:items-center md:justify-center ">
       <div className="left-0 w-full md:w-1/2 h-[100vh] md:h-full md:p-10 p-5 flex items-start justify-start flex-col ">
         <h1 className="text-4xl md:text-6xl w-full !text-left font-bold !text-black">
           Heading 1
@@ -99,7 +99,7 @@ const HeroSection = () => {
         </ul>
       </div>
       <div
-        className="right-0 relative px-10 w-full md:w-1/2 h-full"
+        className="right-0 relative px-10 w-full md:w-1/2 !mb-30 md:mb-0 h-full"
         
       >
         <div className="absolute  md:inline-block rounded-xl -top-10 left-15 z-8 md:top-10 md:-left-10 w-[25rem] h-[27rem]">
